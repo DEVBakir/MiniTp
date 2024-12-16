@@ -20,7 +20,7 @@ function Category({ data, onCategoryChange }) {
           onClick={() => handleClick(category)}
           className={`py-2 px-4 rounded-full transition-all duration-300 ${
             selectedCategory === category
-              ? 'bg-[#a21519] text-white'
+              ? 'bg-red-600 text-white'
               : 'bg-[#ecf1f4] text-[#333]'
           }`}
         >

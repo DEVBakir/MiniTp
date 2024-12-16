@@ -3,14 +3,14 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './component/Header'
-import Main from './component/Main'
+import MenuDisplay from './component/MenuDisplay'
 
 function App() {
 
   return (
     <>
       <Header />
-      <Main />
+      <MenuDisplay />
     </>
   )
 }
